@@ -1,0 +1,27 @@
+.sidenav.collapsible.collapsible-header.chevron{
+    float: right;
+}
+.icon-arrow{
+    float: right !important;
+}
+.demo{
+   margin-left: 0px !important;
+   position: absolute;
+   width: 100%;
+}
+
+.icon-class-local{
+    margin-left: 150px !important;
+    
+}
+.content-class-local{
+    padding-left: 30px !important;
+}
+.header-local{
+    height: 60px !important;
+    width: 100% !important;
+}
+.content-text{
+    width: 100% !important;
+
+}

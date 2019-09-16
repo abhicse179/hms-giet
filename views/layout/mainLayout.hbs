@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3F51B5">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min-altered.css" media="screen,projection" />
+  <link rel="stylesheet" href="css/materialize-altered.css media=" screen,projection">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HMS</title>
+</head>
+
+<body class="has-fixed-sidenav">
+
+  <header>
+    <div class="navbar-fixed">
+      <nav class="navbar indigo">
+        <div class="nav-wrapper">
+          <a href="" class="brand-logo" style="margin-left: 20px;">Home</a>
+        </div>
+      </nav>
+    </div>
+
+    <ul id="sidenav-left" class="sidenav sidenav-fixed black">
+      <div class="content-text"><li>
+        <a href="#!" class="logo-container white-text header-local" style="border-bottom:1px solid; width: 100%;">Admin
+          <i class="material-icons white-text left">spa</i>
+        </a>
+      </li>
+      </div>
+      <div class="demo">
+          <ul class="collapsible collapsible-accordion demo" data-collapsible="accordion">
+
+                  <li style="border-bottom: 1px solid white">
+                    <div class="collapsible-header">
+                      <div class="white-text" style="width: 100px;">Article Title</div>
+                      <i class="material-icons right more white-text icon-class-local">expand_more</i>
+                      <i class="material-icons right less white-text icon-class-local" style="display: none">expand_less</i>
+                      
+                    </div>
+                    <div class="collapsible-body blue">
+                      <p class="content-class-local">
+                        Content Snipit
+                      </p>
+                    </div>
+                  </li>
+
+                  <li style="border-bottom: 1px solid white">
+                    <div class="collapsible-header">
+                      <div class="white-text" style="width: 100px;">Article Title</div>
+                      <i class="material-icons right more white-text icon-class-local">expand_more</i>
+                      <i class="material-icons right less white-text icon-class-local" style="display: none">expand_less</i>
+                      
+                    </div>
+                    <div class="collapsible-body blue">
+                      <p class="content-class-local">
+                        Content Snipit
+                      </p>
+                    </div>
+                  </li>
+
+                  <li style="border-bottom: 1px solid white">
+                    <div class="collapsible-header">
+                      <div class="white-text" style="width: 100px;">Article Title</div>
+                      <i class="material-icons right more white-text icon-class-local">expand_more</i>
+                      <i class="material-icons right less white-text icon-class-local" style="display: none">expand_less</i>
+                      
+                    </div>
+                    <div class="collapsible-body blue">
+                      <p class="content-class-local">
+                        Content Snipit
+                      </p>
+                    </div>
+                  </li>
+                  
+                </ul>
+      </div>
+      
+    </ul>
+
+  </header>
+  <main>
+    {{{body}}}
+  </main>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+      $('.collapsible').collapsible()
+      $(".collapsible-header").click(function () {
+        $(".more", this).toggle()
+        $(".less", this).toggle()
+      });
+    });
+  </script>
+
+</body>
+
+</html>
