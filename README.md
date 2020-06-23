@@ -1,2 +1,2 @@
 # hms-giet
-Semester Minor Project on Hostel Management System
+Semester Major Project on Hostel Management System
